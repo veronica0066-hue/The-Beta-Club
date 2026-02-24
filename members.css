@@ -1,108 +1,27 @@
 body {
-background-image:linear-gradient(to bottom,#3c4ff4,#4dc7ff, #ffffff);
+  background-image: linear-gradient(to bottom, #3c4ff4, #4dc7ff, #ffffff);
   background-size: cover;
-  background-repeat:no-repeat;  
+  background-repeat: no-repeat;
 }
-#Header{
+
+#Header {
   text-align: center;
-   font-family: "Momo Signature", cursive;
+  font-family: "Momo Signature", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 50px !important;
-  text-shadow:3px 3px 3px #FFFF00; 
+  text-shadow: 3px 3px 3px #FFFF00;
 }
-#Header2{
-  text-align:center;
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:700;
-  font-style: normal;
-  font-size: 30px;
-}
-.para{
-  text-align:center;
-  justify-content:center;
-  font-size:23px;
-  letter-spacing:1px;
-  margin:10px;
-  padding:20px;
-  font-family: "Quintessential", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.layout{
-  display:flex;
-  width:90%;
-  margin:40px auto;
-  flex-grow:1;
-  height:600px;
-}
-.left-section{
-  width:40%;
-  margin-right:300px;
-  text-align:center;
-  padding:20px;
-  border-radius:10px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-#clubpic{
-  border-radius:50%;
-  width:75%;
-  height:80%;
-  border:5px solid steelblue;
-}
-.right-section{
-  width:80%;
-  margin-right:20px;
-  text-align:center;
-  padding:20px;
-  border-radius:10px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-.items{
-    border:3px solid darkviolet;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 15px;
-    font-family: cursive;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px grey ;
-    margin:5px;
-}
-.des_items{
-    font-size: 16px;
-    font-family:sans-serif;
-    font-weight: 200 !important;
-}
-.list{
-    list-style-type: none;
-}
-.activities{
+
+#Header2 {
   text-align: center;
-  border: 2px solid gray;
-  border-radius: 20px;
-  box-shadow: 3px 3px 3px black;
-  margin-top: 20px;
-  padding: 10px;
-}
-.description{
-font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 450;
+  font-family: Quicksand, sans-serif;
+  font-weight: 800;
   font-style: normal;
-  font-size: 18px !important;
-  text-align: center;
-}
-.activity{
-  margin: 5px;
-  padding: 5px;
   font-size: 30px !important;
 }
-.footer{
+
+.footer {
   text-align: center;
   padding: 20px;
   background-color: rgb(64, 64, 234);
@@ -110,43 +29,19 @@ font-family: "Quicksand", sans-serif;
   border-top: 1px solid White;
   width: 100%;
   bottom: 0;
-  margin-top: 250px;
+  margin-top: 100px;
 }
-th,td{
- padding: 15px; 
- border: 2px solid rgb(15, 84, 235) ;
- border-collapse: collapse;
-}
-table{
-  border-spacing: 30px;
-  border : 2px solid rgb(15, 84, 235);
-  border-collapse: collapse;
-}
-.events{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-text{
-  text-align:center;
-  justify-content:center;
-  font-size:40px;
-  letter-spacing:1px;
-  margin:10px;
-  padding:20px;
-  font-family: "Quintessential", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.navbar{
+
+.navbar {
   background-color: #3c4ff4;
   margin-top: 0;
-  padding:20px;
+  padding: 20px;
 }
-.navbar-nav .navbar-link{
-  color:white !important; 
+
+.navbar-nav .navbar-link {
+  color: white !important;
 }
-.navbar-nav .navbar-link:hover{
-color:white !important;
+
+.navbar-nav .navbar-link:hover {
+  color: white !important;
 }
