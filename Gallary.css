@@ -1,0 +1,61 @@
+body {
+  background-image: linear-gradient(to bottom, #3c4ff4, #4dc7ff, #ffffff);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Header {
+  text-align: center;
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px !important;
+  text-shadow: 3px 3px 3px #FFFF00;
+}
+
+#Header2 {
+  text-align: center;
+  font-family: Quicksand, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px !important;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(64, 64, 234);
+  color: white;
+  border-top: 1px solid White;
+  width: 100%;
+  bottom: 0;
+  margin-top: 100px;
+}
+
+.navbar {
+  background-color: #3c4ff4;
+  margin-top: 0;
+  padding: 20px;
+}
+
+.navbar-nav .navbar-link {
+  color: white !important;
+}
+
+.navbar-nav .navbar-link:hover {
+  color: white !important;
+}
+
+.navbar {
+  background-color: #3c4ff4;
+  margin-top: 0;
+  padding: 20px;
+}
+
+.navbar-nav .navbar-link {
+  color: white !important;
+}
+
+.navbar-nav .navbar-link:hover {
+  color: white !important;
+}
