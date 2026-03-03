@@ -59,3 +59,19 @@ body {
 .navbar-nav .navbar-link:hover {
   color: white !important;
 }
+
+.Gallary{
+    background-color: #c2e0f1;
+    padding:20px;
+    margin:20px;
+    border:2px solid steelblue;
+    border-radius: 5%;
+    font-size:18px ;
+    width: 80%;
+    height: 50%;
+}
+
+.Gallary img{
+    width: 500px;
+    height: 350px;
+}
